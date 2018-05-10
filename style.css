@@ -1,0 +1,45 @@
+body {
+    background-color: #57b3f1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+    min-height: 30vh;
+}
+
+input {
+    font-size: 18px;
+    width: 40%;
+    height: 40px;
+    padding: 0 50px 0 50px;
+    border: 0;
+}
+
+button {
+    font-size: 18px;
+    margin-left: 3px;
+    border: 0;
+    padding: 0;
+    height: 40px;
+    width: 150px;
+    background: #a5f883;
+    cursor: pointer;
+}
+
+.message {
+    font-family: Raleway, Arial;
+    font-size: 18px;
+    margin-top: 8px;
+}
